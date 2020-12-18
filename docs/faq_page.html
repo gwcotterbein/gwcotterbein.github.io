@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Collapse</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="faq.css" >
+
+  </head>
+  <body>
+    <div class="bubble_menu">
+      <button class="button" onclick="document.location='index.html'">Home</button>
+      <button class="button" onclick="document.location='MeetUs.html'">About Us</button>
+      <button class="button" onclick="document.location='projects.html'">Projects</button>
+      <button class="button" onclick="document.location='faq_page.html'">FAQ</button>
+    </div>
+  <h2>Frequently Asked Questions</h2>
+  <button type="button" class="collapsible">What is Girls Who Code</button>
+  <div class="content">
+    <p> Girls Who Code is an AWESOME club that gives K-12 girls the opportunity to engage with technology outside of the classroom.</p>
+  </div>
+  <button type="button" class="collapsible">What if I don't have experience with technology?</button>
+  <div class="content">
+    <p>That's okay!!! We will teach you everything you need to know to participate! Come hang out with us on Saturday! All you need is an interest in computers or math or robots or apps or lasers or...</p>
+  </div>
+  <button type="button" class="collapsible">  What if I do have experience with technology?</button>
+  <div class="content">
+    <p>That's INCREDIBLE!!! Come hang out with us on Saturday! We would love to hear about your projects and help you find more to learn!</p>
+  </div>
+
+
+   
+
+    <h2>Send question to gwcotterbein@gmail.com</h2>
+
+    <form action="mailto:gwcotterbein@gmail.com" method="post" enctype="text/plain">
+    Name:<br>
+    <input type="text" name="name"><br>
+    E-mail:<br>
+    <input type="text" name="mail"><br>
+    Question:<br>
+    <input type="text" name="comment" size="50"><br><br>
+    <input type="submit" value="Send">
+    <input type="reset" value="Reset">
+    </form>
+    <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+  for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+  </body>
+</html>
