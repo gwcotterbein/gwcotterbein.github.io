@@ -67,3 +67,15 @@ h1, h2, p, form{
   text-align:center;
   width:100%;
 }
+  .footer{
+    text-align: center;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
