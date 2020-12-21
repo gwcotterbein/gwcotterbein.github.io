@@ -12,7 +12,8 @@ body {
     border: none;
     padding: 20px;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none;    
+    font-family: 'Emilys Candy', cursive;  
     /*display: inline-block;*/
     font-size: 20px;
     height: 150px;
@@ -31,12 +32,18 @@ body {
   }
 
   .grid {
-    position: relative;
-    margin: 0 auto;
+    margin-bottom: 200px;
+    padding-right: 200px;
     padding: 1em 0 4em;
-    max-width: 1600px;
+    margin-left: 180px;
+    min-width: 1600px;
     list-style: none;
     text-align: center;
+  }
+
+  .caption{
+    padding-right: 300px;
+    padding-left: 300px;
   }
   
   /* Common style */
