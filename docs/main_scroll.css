@@ -1,6 +1,7 @@
 * {
     font-family: 'Emilys Candy', cursive;  
-    background-color: #F4D58D;
+    background-color: #3B4854;
+    color:#FFFFFF;
 }
 
 
@@ -9,7 +10,6 @@
 }
 
 .bubble_menu button {
-  background-color: #3BCEAC;
   border: none;
   padding: 20px;
   text-align: center;
@@ -19,12 +19,36 @@
   height: 150px;
   width: 150px;
   margin: 10px 10px;
-  color: #000000;
+  color: #333E48;
   border-radius: 50%;
 }
-.button:hover {
-  background-color: #000000; 
-  color: #f2f2f2;
+.homeButton{
+  background-color:#08F7FE;
+}
+.aboutUsButton{
+  background-color:#09FBD3;
+}
+.projectsButton{
+  background-color:#FE53BB;
+}
+.faqButton{
+  background-color:#F5D300;
+}
+.homeButton:hover {
+  background-color: #FFFFFF; 
+  color: #08F7FE;
+}
+.aboutUsButton:hover{
+  background-color:#FFFFFF;
+  color:#09FBD3;
+}
+.projectsButton:hover{
+  background-color:#FFFFFF;
+  color:#FE53BB;
+}
+.faqButton:hover{
+  background-color:#FFFFFF;
+  color:#F5D300;
 }
 
 /*photo slideshow*/
@@ -71,33 +95,6 @@ h1, h2, p{
   text-align:center
 }
   
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
-    float: left;
-    width: 16.66%;
-  }
-  
-  
-  .active,
-  .demo:hover {
-    opacity: 1;
-  }
-
   .footer{
     text-align: center;
   }
